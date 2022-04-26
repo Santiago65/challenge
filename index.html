@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="program.js"></script>
+</head>
+<body>
+    <h1 class="titulo">Encriptador de texto</h1>
+
+    <main class="main">
+      <section class="form box">
+        <form action="">
+          <div class="izq">
+            <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aquí">
+            <p class="texto3">Sólo en minúsculas y sin acentos</p>
+                    </div>
+                    <div class="der">
+             <img src="" id="imgPr">
+            <h1 id="texto">Ningun mensaje fue encontrado</h1> 
+            </div>
+            </div>
+            <div class="left-button">
+                <p class="parrafo">Solo minusculas y sin acentos</p>
+                <button type="button" id="btn-encriptar" onclick="encriptar()" >Encriptar </button>
+                <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar </button>
+            </div>
+            
+        </form>
+      </section>
+    
+      <section class="msg box">
+        <textarea id="texto2" name="" id="" cols="30" rows="10">Ingrese el texto que desees encriptar o desencriptar</textarea>
+        <button id="copiar" type="button" onclick="copy()">¡Copiar!</button> 
+      </section>
+    </main>
+    <footer>
+      <p>Todos los derechos reservados | © 2022 Santiago Carreira |<br><a href="mailto:stgocarreira@gmail.com">stgocarreira@gmail.com</a> </p>
+    </footer>
+</body>
+</html>
